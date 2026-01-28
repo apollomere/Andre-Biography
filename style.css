@@ -1,8 +1,8 @@
 .text,title{color: white; font-family: "Pixelify Sans", sans-serif; }
 
 p:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 5px
+    text-decoration: underline green;
+    text-decoration-thickness: 5px;
 }
 a:link
 {
@@ -11,6 +11,15 @@ a:link
 a:visited
 {
     color: green;
+}
+img
+{
+    border: 1px solid white;
+}
+
+img:hover
+{
+    border: 3px solid green;
 }
 
 a:hover
